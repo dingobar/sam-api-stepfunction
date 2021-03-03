@@ -1,0 +1,11 @@
+{
+    "Comment": "This is just a little test!",
+    "StartAt": "FirstState",
+    "States": {
+        "FirstState": {
+            "Type": "Task",
+            "Resource": "${HelloWorldFunctionArn}",
+            "End": true
+        }
+    }
+}
